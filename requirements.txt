@@ -7,3 +7,4 @@ streamlit==1.13.0
 tensorflow==2.10.0
 protobuf==3.19.1
 wheel==0.38.4
+afinn==0.1
