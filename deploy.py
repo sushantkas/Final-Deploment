@@ -95,7 +95,7 @@ def custom_pipeline_nn(data):
 
 with st.sidebar:
     add_radio = st.radio(
-        "Choose a shipping method",
+        "Choose a Number of Stars you would like to give",
         ("⭐⭐⭐⭐⭐","⭐⭐⭐⭐","⭐⭐⭐","⭐⭐","⭐")
     )
 
