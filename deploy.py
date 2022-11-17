@@ -121,7 +121,7 @@ else:
     st.stop()
 
 
-data=data_string(review_title.join(reviews),len(add_radio))
+data=data_string(" ".join([reviews,review_title]),len(add_radio))
 
 
 
