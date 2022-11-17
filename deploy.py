@@ -25,10 +25,11 @@ def add_bg_from_url(link):
          unsafe_allow_html=True
      )
 
-
+import nltk
 
 
 afinn=Afinn(language='en')
+nltk.download('stopwords')
 
 from nltk.corpus import stopwords
 
