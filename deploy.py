@@ -5,11 +5,10 @@ import afinn
 from afinn import Afinn
 from joblib import dump, load
 from keras.models import Sequential, load_model
-from tensorflow import keras
 from tensorflow.keras.layers import LSTM, Dense, Embedding
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-from tensorflow.keras.preprocessing.text import Tokenizer, one_hot
+from tensorflow.keras.preprocessing.text import Tokenizer
 import streamlit as st
 
 def add_bg_from_url(link):
@@ -28,7 +27,6 @@ def add_bg_from_url(link):
 
 
 
-tf.device('/cpu:0')
 
 afinn=Afinn(language='en')
 
