@@ -116,7 +116,7 @@ reviews = form.text_area("Enter Review here for Analysis:")
 if form.form_submit_button("Analyze"):
     st.success("Submitted for Sentiment Analysis.....")
     st.text(f"Your Entered Review title:\n{review_title}\n")
-    st.text(f"Your Entered Review title:\n{reviews}")
+    st.text(f"Your Entered Review:\n{reviews}")
 else:
     st.stop()
 
